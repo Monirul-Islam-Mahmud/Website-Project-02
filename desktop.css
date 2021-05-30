@@ -1,0 +1,290 @@
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 10.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 2.1rem;
+  text-align: center;
+  color: #00008b;
+}
+
+/* navbar deign starts here */
+.nav-logo {
+  border: 5px solid white;
+  height: 150px;
+  width: 180px;
+}
+
+.nav-logo :hover {
+  box-shadow: 2px 4px 6px 5px gray;
+  transition: 1s;
+  border-radius: 50%;
+}
+
+.nav-heading h2 {
+  text-align: center;
+}
+
+.navbar-menu {
+  text-align: right;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navbar-menu a {
+  color: whitesmoke;
+  font-size: 23px;
+  flex: 1;
+  text-align: right;
+  position: relative;
+  padding: 10px 15px 15px;
+  margin: 10px 10px 0px 10px;
+  background-color: transparent;
+}
+
+.navbar-menu a:hover {
+  color: #808080;
+  transition: 0.8s;
+  transform: scale(4.2);
+}
+
+/* navbar design ends here */
+
+.bubbles img {
+  width: 100px;
+  animation: bubble 4.8s linear infinite;
+}
+
+.bubbles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -300px;
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+.bubbles img :nth-child(1) {
+  animation-delay: 2s;
+  width: 105px;
+}
+
+.bubbles img:nth-child(2) {
+  animation-delay: 1s;
+  width: 105px;
+}
+.bubbles img:nth-child(3) {
+  animation-delay: 3s;
+  width: 105px;
+}
+.bubbles img:nth-child(4) {
+  animation-delay: 4.5s;
+  width: 105px;
+}
+.bubbles img:nth-child(5) {
+  animation-delay: 3.5s;
+  width: 100px;
+}
+.bubbles img:nth-child(6) {
+  animation-delay: 2.9s;
+  width: 100px;
+}
+.bubbles img:nth-child(7) {
+  animation-delay: 4s;
+  width: 95px;
+}
+
+.book {
+  height: 870px;
+  width: 100%;
+  margin: 10px 0px;
+  padding-top: 20px;
+  background-color: lightgray;
+}
+
+.book-list {
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 140px;
+  padding-top: 20px;
+}
+
+.profile-desc p {
+  color: gray;
+  margin: 10 auto;
+  width: 90%;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.form1 {
+  position: relative;
+  background-color: orange;
+  width: 100%;
+  height: 150px;
+  padding-top: 10px;
+}
+
+.form1 p {
+  font-size: 38px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* professional-experience starts here */
+.professional-experience {
+  padding: 1% 5%;
+}
+/* professional-experience ends here */
+
+/* achievement-contact starts here  */
+.achievement {
+  padding-right: 50px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact button {
+  width: 150px;
+}
+
+.contact-links {
+  position: relative;
+}
+
+/* .media-buttons{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+} */
+/* achievement-contact ends here  */
+
+.tutorial {
+  height: 450px;
+  width: 100%;
+  background-color: #e6e6fa;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tutorial1 {
+  height: 300px;
+  width: 300px;
+  background-color: #39a4ac;
+  transform: translateY(25%);
+}
+
+.tutorial1 img:hover {
+  box-shadow: 2px 6px 8px 5px gray;
+  transition: 0.7s;
+}
+
+/* footer starts from here  */
+
+.footer {
+  height: 230px;
+}
+
+.footer-menu {
+  margin-top: 12px;
+}
+
+.footer-menu a {
+  color: white;
+  display: inline;
+  float: left;
+  margin: 10px 30px;
+}
+
+.footer-menu a:hover {
+  font-size: 21px;
+  color: navy;
+  transition: 0.3s;
+}
+
+.media-buttons {
+  margin-left: 1px;
+  border: 2px;
+  border-radius: 50px;
+  background-color: #ff4500;
+  display: inline;
+  color: white;
+  cursor: pointer;
+  margin: 20px 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-desc {
+  margin-top: 20px;
+  float: left;
+  color: white;
+}
+
+/* footer ends here  */
